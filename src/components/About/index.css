@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.about-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.dark-about-bg {
+  background-color: #000000;
+}
+
+.light-about-bg {
+  background-color: #ffffff;
+}
+
+.dark-about-color {
+  color: #1e293b;
+}
+
+.light-about-color {
+  color: #ffffff;
+}
+
+.about-image {
+  width: 80%;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-image {
+    width: 50%;
+    max-width: 250px;
+    max-height: 250px;
+  }
+}
+
+.about-title {
+  font-family: 'Roboto';
+  font-size: 60px;
+  font-weight: 900;
+}
